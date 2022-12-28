@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "description": "A toolkit to help upload files to Catbox.moe",
+    "homepage": "https://github.com/wabarc/go-catbox",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wabarc/go-catbox/releases/download/v0.1.0/catbox-windows-amd64-0.1.0.zip",
+            "hash": "f4e3bf3d335763e54cf2f47f1ecde0fb71b932056b3e1119aa01eecc2dba5d39"
+        }
+    },
+    "bin": [
+        [
+            "catbox-windows-amd64.exe",
+            "catbox"
+        ]
+    ],
+    "checkver": {
+        "url": "github",
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wabarc/go-catbox/releases/download/v$version/catbox-windows-amd64-$version.zip"
+            }
+        }
+    }
+}
