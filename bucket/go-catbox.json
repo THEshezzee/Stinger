@@ -15,9 +15,7 @@
             "catbox"
         ]
     ],
-    "checkver": {
-        "url": "github",
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

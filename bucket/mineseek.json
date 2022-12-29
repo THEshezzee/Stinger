@@ -16,9 +16,7 @@
             "extract_dir": "mineseek-0.2.0-windows-386"
         }
     },
-    "checkver": {
-        "url": "github"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
