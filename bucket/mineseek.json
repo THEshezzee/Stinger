@@ -3,33 +3,31 @@
     "description": "Minecraft server scanner",
     "homepage": "https://github.com/MrMarble/mineseek",
     "license": "GPL-3.0",
+    "bin": "mineseek.exe",
     "architecture": {
         "64bit": {
             "url": "https://github.com/MrMarble/mineseek/releases/download/v0.2.0/mineseek-0.2.0-windows-amd64.zip",
-            "hash": "7E37020EA37FD191C09E1389C17B507E2CD3A78FD1FE5A706972A6E034C55134"
-        }
-    },
+            "hash": "7e37020ea37fd191c09e1389c17b507e2cd3a78fd1fe5a706972a6e034c55134",
+            "extract_dir": "mineseek-0.2.0-windows-amd64"
+        },
         "32bit": {
             "url": "https://github.com/MrMarble/mineseek/releases/download/v0.2.0/mineseek-0.2.0-windows-386.zip",
-            "hash": "DC1D327E06874A329C73DCBF88D320A9D23DC599E8AB1824BC3EFEF56B9F237A"
+            "hash": "dc1d327e06874a329c73dcbf88d320a9d23dc599e8ab1824bc3efef56b9f237a",
+            "extract_dir": "mineseek-0.2.0-windows-386"
         }
     },
-    "bin": [
-        [
-            "mineseek.exe",
-            "mineseek"
-        ]
-    ],
     "checkver": {
-        "url": "github",
+        "url": "github"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-amd64.zip"
+                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-amd64.zip",
+                "extract_dir": "mineseek-$version-windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-386.zip"
+                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-386.zip",
+                "extract_dir": "mineseek-$version-windows-386"
             }
         }
     }
