@@ -5,5 +5,5 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 ```
 # This bucket has following packages:
 
-• [go-catbox](https://github.com/wabarc/go-catbox)
+• [go-catbox](https://github.com/wabarc/go-catbox)  
 • [mineseek](https://github.com/MrMarble/mineseek)
