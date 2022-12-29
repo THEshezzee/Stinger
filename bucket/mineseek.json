@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "description": "Minecraft server scanner",
+    "homepage": "https://github.com/MrMarble/mineseek",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MrMarble/mineseek/releases/download/v0.2.0/mineseek-0.2.0-windows-amd64.zip",
+            "hash": "7E37020EA37FD191C09E1389C17B507E2CD3A78FD1FE5A706972A6E034C55134"
+        }
+    },
+        "32bit": {
+            "url": "https://github.com/MrMarble/mineseek/releases/download/v0.2.0/mineseek-0.2.0-windows-386.zip",
+            "hash": "DC1D327E06874A329C73DCBF88D320A9D23DC599E8AB1824BC3EFEF56B9F237A"
+        }
+    },
+    "bin": [
+        [
+            "mineseek.exe",
+            "mineseek"
+        ]
+    ],
+    "checkver": {
+        "url": "github",
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-386.zip"
+            }
+        }
+    }
+}
