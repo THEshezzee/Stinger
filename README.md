@@ -1,4 +1,4 @@
-# Personal bucket
+# Personal bucket [![Excavator](https://github.com/THEshezzee/Stinger/actions/workflows/excavator.yml/badge.svg)](https://github.com/THEshezzee/Stinger/actions/workflows/excavator.yml)
 
 ```
 scoop bucket add stinger https://github.com/THEshezzee/Stinger
