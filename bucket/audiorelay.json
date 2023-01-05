@@ -1,0 +1,32 @@
+{
+    "version": "0.26.3",
+    "description": "AudioRelay is an application to stream every sound from your PC to one or multiple Android devices.",
+    "homepage": "https://audiorelay.net",
+    "license": "Freeware",
+    "innosetup": true,
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.audiorelay.net/setups/windows/audiorelay-0.26.3.exe",
+            "hash": "660a6eae9e54c171ae0af8715a139dca208d681ab8387e1bbb549f32a272db85",
+            "post_install": "Copy-Item $dir\\app\\AudioRelay.cfg.win10 $dir\\app\\AudioRelay.cfg"
+        }
+    },
+    "bin": "AudioRelay.exe",
+    "shortcuts": [
+        [
+            "AudioRelay.exe",
+            "AudioRelay"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.audiorelay.net/downloads",
+        "jsonpath": "$.windows.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.audiorelay.net/setups/windows/audiorelay-$version.exe"
+            }
+        }
+    }
+}
