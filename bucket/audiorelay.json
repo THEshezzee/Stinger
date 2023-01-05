@@ -3,6 +3,9 @@
     "description": "AudioRelay is an application to stream every sound from your PC to one or multiple Android devices.",
     "homepage": "https://audiorelay.net",
     "license": "Freeware",
+    "suggest": {
+        "virtual-mic": "stinger/audiorelay-virtualmic"
+    },
     "innosetup": true,
     "architecture": {
         "64bit": {
