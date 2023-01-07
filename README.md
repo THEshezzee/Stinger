@@ -10,3 +10,4 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [go-catbox](https://github.com/wabarc/go-catbox)  
 • [mineseek](https://github.com/MrMarble/mineseek)  
 • [opennbs](https://github.com/OpenNBS/OpenNoteBlockStudio)
+• [rage](https://github.com/str4d/rage)
