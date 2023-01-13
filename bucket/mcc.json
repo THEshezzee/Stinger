@@ -1,0 +1,46 @@
+{
+    "version": "20221202-176",
+    "description": "Lightweight console for Minecraft chat and automated scripts",
+    "homepage": "https://mccteam.github.io",
+    "license": "CDDL-1.0",
+    "notes": "Your config file located at $persist_dir\\config\\MinecraftClient.ini",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20221202-176/MinecraftClient-windows-x64.zip",
+            "hash": "4583af52b5df2b7fb86942b788a5cf01bc92a76480177ee47a7f4f3bfe51dfb8"
+        },
+        "32bit": {
+            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20221202-176/MinecraftClient-windows-x86.zip",
+            "hash": "9288BAA6EFB01E576A3FE499575A5326D608D7EF107D520B4F0862069E5465E5"
+        }
+    },
+    "bin": [
+        [
+            "MinecraftClient.exe",
+            "mcc",
+            "$persist_dir\\config\\MinecraftClient.ini"
+        ]
+    ],
+    "post_install": [
+        "if (!(Test-Path $persist_dir\\config\\MinecraftClient.ini)) {",
+        "   &{ New-Item $persist_dir\\config\\MinecraftClient.ini } | Out-Null",
+        "   Write-Output \"Created file $persist_dir\\config\\MinecraftClient.ini\"",
+        "}"
+    ],
+    "persist": [
+        "config"
+    ],
+    "checkver": {
+        "github": "https://github.com/MCCTeam/Minecraft-Console-Client"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-windows-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-windows-x86.zip"
+            }
+        }
+    }
+}

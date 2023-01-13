@@ -9,6 +9,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [cubiomes-viewer](https://github.com/Cubitect/cubiomes-viewer)  
 • [garbro](https://github.com/morkt/GARbro)  
 • [go-catbox](https://github.com/wabarc/go-catbox)  
+• [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)  
 • [mineseek](https://github.com/MrMarble/mineseek)  
 • [opennbs](https://github.com/OpenNBS/OpenNoteBlockStudio)  
 • [rage](https://github.com/str4d/rage)
