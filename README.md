@@ -9,4 +9,5 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [garbro](https://github.com/morkt/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
 • [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)<br>
-• [mineseek](https://github.com/MrMarble/mineseek)
+• [mineseek](https://github.com/MrMarble/mineseek)<br>
+• [sing-box](https://github.com/SagerNet/sing-box)
