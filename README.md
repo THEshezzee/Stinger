@@ -6,6 +6,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 # This bucket has following packages:
 
 • [audiorelay](https://audiorelay.net) || [audiorelay-virtualmic](https://docs.audiorelay.net/instructions/windows/use-your-phone-as-a-mic-for-windows-10) (Optional audiorelay`s virtual microphone driver dependency for [audiorelay](https://audiorelay.net) package.)<br>
+• [clash.meta](https://github.com/MetaCubeX/Clash.Meta)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
 • [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)<br>

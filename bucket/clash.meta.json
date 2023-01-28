@@ -1,0 +1,52 @@
+{
+    "version": "1.14.1",
+    "description": "A rule-based tunnel in Go. (Fork of clash.)",
+    "homepage": "https://github.com/MetaCubeX/Clash.Meta",
+    "license": "GPL-3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-amd64-compatible-v1.14.1.zip",
+            "hash": "B95E27C1F541D0B42DD75336D20E526BE220C60E604B4BCDB2F339B892E31972",
+            "bin": [
+                [
+                    "clash.meta-windows-amd64-compatible.exe",
+                    "clash-meta"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-386-v1.14.1.zip",
+            "hash": "B95E27C1F541D0B42DD75336D20E526BE220C60E604B4BCDB2F339B892E31972",
+            "bin": [
+                [
+                    "clash.meta-windows-386.exe",
+                    "clash-meta"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-arm64-v1.14.1.zip",
+            "hash": "3A92FC4BF494625D6AF380B59BDF9E374D5F94B9798AAC1A7112121446404D6C",
+            "bin": [
+                [
+                    "clash.meta-windows-arm64.exe",
+                    "clash-meta"
+                ]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/clash.meta-windows-amd64-compatible-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/clash.meta-windows-386-v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/clash.meta-windows-arm64-v$version.zip"
+            }
+        }
+    }
+}
