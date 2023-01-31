@@ -1,0 +1,35 @@
+{
+    "version": "0.0.3-34246bb",
+    "description": "Advanced Minecraft Server-Stresser Tool",
+    "homepage": "https://github.com/AlexProgrammerDE/ServerWrecker",
+    "license": "GPL-3",
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/oraclejdk"
+        ]
+    },
+    "url": "https://nightly.link/AlexProgrammerDE/ServerWrecker/workflows/build/main/ServerWrecker.zip",
+    "hash": "7e91ff160556ad1b7129dfb24296c70841b509ae920c5a9a3dd6b3ac93429efb",
+    "bin": [
+        [
+            "serverwrecker-core-all.jar",
+            "serverwrecker" 
+        ]
+    ],
+    "shortcuts": [
+        [
+            "serverwrecker-core-all.jar",
+            "ServerWrecker"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/AlexProgrammerDE/ServerWrecker/commits",
+        "jsonpath": "$..sha",
+        "regex": "/tag/([\\d.]+)",
+        "replace": "0.0.3-${sha}"
+    },
+    "autoupdate": {
+        "url": "https://nightly.link/AlexProgrammerDE/ServerWrecker/workflows/build/main/ServerWrecker.zip"
+    }
+}
