@@ -12,5 +12,4 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)<br>
 • [mineseek](https://github.com/MrMarble/mineseek)<br>
 • [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
-• [serverwrecker-git](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)
