@@ -31,7 +31,8 @@
         "config"
     ],
     "checkver": {
-        "github": "https://github.com/MCCTeam/Minecraft-Console-Client"
+        "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/latest",
+        "regex": "https://github\\.com/MCCTeam/Minecraft-Console-Client/releases/tag/([0-9A-Za-z]+(-[0-9A-Za-z]+)+)"
     },
     "autoupdate": {
         "architecture": {
