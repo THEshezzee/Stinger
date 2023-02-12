@@ -29,7 +29,7 @@
                 "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v$version/ipfs-cluster-follow_v$version_windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v$version/ipfs-cluster-follow_v$version_windows-amd64.zip"
+                "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v$version/ipfs-cluster-follow_v$version_windows-386.zip"
             }
         },
         "hash": {
