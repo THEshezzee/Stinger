@@ -9,6 +9,10 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [clash.meta](https://github.com/MetaCubeX/Clash.Meta)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
+• [ipget](https://github.com/ipfs/ipget)<br>
+• [ipfs-cluster-ctl](https://ipfscluster.io/)<br>
+• [ipfs-cluster-follow](https://ipfscluster.io/)<br>
+• [ipfs-cluster-service](https://ipfscluster.io/)<br>
 • [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)<br>
 • [mineseek](https://github.com/MrMarble/mineseek)<br>
 • [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>

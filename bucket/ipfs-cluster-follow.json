@@ -1,0 +1,39 @@
+{
+    "version": "1.0.5",
+    "description": "Pinset orchestration for IPFS",
+    "homepage": "https://ipfscluster.io/",
+    "license": {
+        "identifier": "Apache-2.0, MIT",
+        "url": "https://raw.githubusercontent.com/ipfs-cluster/ipfs-cluster/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v1.0.5/ipfs-cluster-follow_v1.0.5_windows-amd64.zip",
+            "hash": "sha512:9a63dca8feed01338cb50bccf4db0a1a0e3dd18ff17332a3d82d4f025a558e0f49ae357358435ba2774621fd03754d18182071fe9ec8082807e71f2c99ab8b6a",
+        },
+        "32bit": {
+            "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v1.0.5/ipfs-cluster-follow_v1.0.5_windows-386.zip",
+            "hash": "sha512:33c8fd2dedeb85115a08b81d9835e0629b5e29d25e24249d84692d0ea1c0914c1e07f6957ecdd917162f1a53d461768c6abeb93ab6521e8a41363a89a18d8421"
+        }
+    },
+    "extract_dir": "ipfs-cluster-follow",
+    "bin": "ipfs-cluster-follow.exe",
+    "checkver": {
+        "url": "https://dist.ipfs.tech/ipfs-cluster-follow/versions",
+        "reverse": true,
+        "regex": "(?m)^v([\\d.]*)$"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v$version/ipfs-cluster-follow_v$version_windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v$version/ipfs-cluster-follow_v$version_windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha512"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "version": "0.9.1",
+    "description": "Retrieve files over IPFS and save them locally.",
+    "homepage": "https://github.com/ipfs/ipget",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://dist.ipfs.tech/ipget/v0.9.1/ipget_v0.9.1_windows-amd64.zip",
+            "hash": "sha512:44474a97a8a9749bd341e4089007172382ba6f755d9623f6d7a3e62c1fb5e4c5e032a5323fcd7a589c8710980f47c186dddc2f3fb88c5a7d52a04bc56a546ced",
+        },
+        "32bit": {
+            "url": "https://dist.ipfs.tech/ipget/v0.9.1/ipget_v0.9.1_windows-386.zip",
+            "hash": "sha512:2f2cd197a03b419ed74d9005839ab9e60f396c3dcdfc78e814bab64aefb2516ed5fc2110528e5b20543af7b74c67379cc6761344fcf0d3e4645957b70657a166"
+        }
+    },
+    "extract_dir": "ipget",
+    "bin": "ipget.exe",
+    "checkver": {
+        "url": "https://dist.ipfs.tech/ipget/versions",
+        "reverse": true,
+        "regex": "(?m)^v([\\d.]*)$"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dist.ipfs.tech/ipget/v$version/ipget_v$version_windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://dist.ipfs.tech/ipget/v$version/ipget_v$version_windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha512"
+        }
+    }
+}
