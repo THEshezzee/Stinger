@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v1.0.5/ipfs-cluster-follow_v1.0.5_windows-amd64.zip",
-            "hash": "sha512::9a63dca8feed01338cb50bccf4db0a1a0e3dd18ff17332a3d82d4f025a558e0f49ae357358435ba2774621fd03754d18182071fe9ec8082807e71f2c99ab8b6a",
+            "hash": "sha512:9a63dca8feed01338cb50bccf4db0a1a0e3dd18ff17332a3d82d4f025a558e0f49ae357358435ba2774621fd03754d18182071fe9ec8082807e71f2c99ab8b6a",
         },
         "32bit": {
             "url": "https://dist.ipfs.tech/ipfs-cluster-follow/v1.0.5/ipfs-cluster-follow_v1.0.5_windows-386.zip",
