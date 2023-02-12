@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-amd64-compatible-v1.14.1.zip",
-            "hash": "B95E27C1F541D0B42DD75336D20E526BE220C60E604B4BCDB2F339B892E31972",
+            "hash": "b95e27c1f541d0b42dd75336d20e526be220c60e604b4bcdb2f339b892e31972",
             "bin": [
                 [
                     "clash.meta-windows-amd64-compatible.exe",
@@ -16,7 +16,7 @@
         },
         "32bit": {
             "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-386-v1.14.1.zip",
-            "hash": "B95E27C1F541D0B42DD75336D20E526BE220C60E604B4BCDB2F339B892E31972",
+            "hash": "7da9225958c7db6da3aacdc3f4ffd4cd491f8825129b39d8247974875592d58d",
             "bin": [
                 [
                     "clash.meta-windows-386.exe",
@@ -26,7 +26,7 @@
         },
         "arm64": {
             "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.1/clash.meta-windows-arm64-v1.14.1.zip",
-            "hash": "3A92FC4BF494625D6AF380B59BDF9E374D5F94B9798AAC1A7112121446404D6C",
+            "hash": "3a92fc4bf494625d6af380b59bdf9e374d5f94b9798aac1a7112121446404d6c",
             "bin": [
                 [
                     "clash.meta-windows-arm64.exe",
