@@ -1,0 +1,35 @@
+{
+    "version": "0.21.0",
+    "description": "⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery! Create decentralized introspectable tunnels over p2p with shared tokens",
+    "homepage": "https://mudler.github.io/edgevpn",
+    "license": "Apache-2.0",
+    "bin": "edgevpn.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.21.0/edgevpn-v0.21.0-Windows-x86_64.tar.gz",
+            "hash": "2e2205e4ab3b1c6f4e8a1f30fc91353a969522399208bacc5bbab9f10a8dc552"
+        },
+        "32bit": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.21.0/edgevpn-v0.21.0-Windows-i386.tar.gz",
+            "hash": "3bc7ade398b78ce1d59c6a4e1417cf64c2c72d74355fd7559db80ee18b9647b4"
+        },
+        "arm64": {
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.21.0/edgevpn-v0.21.0-Windows-arm64.tar.gz",
+            "hash": "a6b8194d997e22f453832e505dcd9a9861c076e8ebc4a8e23ef16ec4a4530756"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-x86_64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-arm64.tar.gz"
+            }
+        }
+    }
+}
