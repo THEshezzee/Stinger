@@ -1,11 +1,11 @@
 {
-    "version": "0.26.3",
+    "version": "0.27.3",
     "description": "AudioRelay virtual-mic driver.",
     "homepage": "https://audiorelay.net",
     "license": "Freeware",
     "innosetup": true,
-    "url": "https://dl.audiorelay.net/setups/windows/audiorelay-0.26.3.exe",
-    "hash": "660a6eae9e54c171ae0af8715a139dca208d681ab8387e1bbb549f32a272db85",
+    "url": "https://dl.audiorelay.net/setups/windows/audiorelay-0.27.3.exe",
+    "hash": "f2a665baddbcf99384089edd57ab2979d6fac78f41991cbdf1e51da5113afcb7",
     "pre_install": [
         "if (-not $global) {",
         "    Write-Host -Foreground Red \"$app should be installed globally.\"",
@@ -26,7 +26,7 @@
             "Write-Output \"Uninstalling driver...\"",
             "& $dir\\tools\\drivers\\AudioConnect.DriverHelper.exe uninstall *audiorelayvirtualmic",
             "Write-Output \"A system reboot is required to finalize the uninstallation.\""
-        ],
+        ]
     },
     "checkver": {
         "url": "https://api.audiorelay.net/downloads",
