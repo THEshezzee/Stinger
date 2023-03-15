@@ -18,7 +18,9 @@
             "hash": "a6b8194d997e22f453832e505dcd9a9861c076e8ebc4a8e23ef16ec4a4530756"
         }
     },
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/mudler/edgevpn/"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
