@@ -4,6 +4,10 @@
     "homepage": "https://mudler.github.io/edgevpn",
     "license": "Apache-2.0",
     "bin": "edgevpn.exe",
+    "suggest": {
+        "sudo": "main/gsudo"
+    },
+    "depends": "stinger/wintun",
     "architecture": {
         "64bit": {
             "url": "https://github.com/mudler/edgevpn/releases/download/v0.21.0/edgevpn-v0.21.0-Windows-x86_64.tar.gz",
@@ -18,6 +22,10 @@
             "hash": "a6b8194d997e22f453832e505dcd9a9861c076e8ebc4a8e23ef16ec4a4530756"
         }
     },
+    "post_install": [
+        "# Copy wintun.dll",
+        "Copy-Item -Path $dir\\..\\..\\wintun\\current\\wintun.dll -Destination $dir"
+    ],
     "checkver": {
         "github": "https://github.com/mudler/edgevpn/"
     },
@@ -27,7 +35,7 @@
                 "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/MrMarble/mineseek/releases/download/v$version/mineseek-$version-windows-386.zip"
+                "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-i386.tar.gz"
             },
             "arm64": {
                 "url": "https://github.com/mudler/edgevpn/releases/download/v$version/edgevpn-v$version-Windows-arm64.tar.gz"
