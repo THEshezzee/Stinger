@@ -1,33 +1,33 @@
 {
-	"version": "0.14.1",
-	"description": "Wintun API Library",
-	"homepage": "https://www.wintun.net/",
-	"license": {
-		"identifier": "Freeware",
-		"url": "https://git.zx2c4.com/wintun/plain/prebuilt-binaries-license.txt"
-	},
-	"url": "https://www.wintun.net/builds/wintun-0.14.1.zip",
-	"hash": "07c256185d6ee3652e09fa55c0b673e2624b565e02c4b9091c79ca7d2f24ef51",
-	"architecture": {
-		"64bit": {
-			"extract_dir": "wintun\\bin\\amd64"
-		},
-		"32bit": {
-			"extract_dir": "wintun\\bin\\x86"
-		},
-		"arm64": {
-			"extract_dir": "wintun\\bin\\arm64"
-		}
-	},
-	"checkver": {
-		"url": "https://www.wintun.net/",
-		"regex": "([0-9]+(\\.[0-9]+)+)\\.zip"
-	},
-	"autoupdate": {
-		"url": "https://www.wintun.net/builds/wintun-$version.zip",
-		"hash": {
-			"url": "https://www.wintun.net/",
-			"regex": "\\b([a-fA-F0-9]{64})\\b"
-		}
-	}
+    "version": "0.14.1",
+    "description": "Wintun API Library",
+    "homepage": "https://www.wintun.net/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://git.zx2c4.com/wintun/plain/prebuilt-binaries-license.txt"
+    },
+    "url": "https://www.wintun.net/builds/wintun-0.14.1.zip",
+    "hash": "07c256185d6ee3652e09fa55c0b673e2624b565e02c4b9091c79ca7d2f24ef51",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "wintun\\bin\\amd64"
+        },
+        "32bit": {
+            "extract_dir": "wintun\\bin\\x86"
+        },
+        "arm64": {
+            "extract_dir": "wintun\\bin\\arm64"
+        }
+    },
+    "checkver": {
+        "url": "https://www.wintun.net/",
+        "regex": "([0-9]+(\\.[0-9]+)+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://www.wintun.net/builds/wintun-$version.zip",
+        "hash": {
+            "url": "https://www.wintun.net/",
+            "regex": "\\b([a-fA-F0-9]{64})\\b"
+        }
+    }
 }
