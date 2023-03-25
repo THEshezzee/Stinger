@@ -17,6 +17,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [ipfs-cluster-service](https://ipfscluster.io/)<br>
 • [mcc](https://github.com/MCCTeam/Minecraft-Console-Client)<br>
 • [mineseek](https://github.com/MrMarble/mineseek)<br>
+• [netbird](https://netbird.io/)<br>
 • [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
 • [tun2socks](https://github.com/xjasonlyu/tun2socks)<br>
