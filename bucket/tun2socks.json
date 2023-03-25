@@ -1,0 +1,60 @@
+{
+    "version": "2.4.1",
+    "description": "tun2socks - powered by gVisor TCP/IP stack",
+    "homepage": "https://github.com/xjasonlyu/tun2socks",
+    "license": "GPL-3.0",
+    "depends": "stinger/wintun",
+    "suggest": {
+        "sudo": "main/gsudo"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.4.1/tun2socks-windows-amd64.zip",
+            "hash": "277279ef4352ec8709c69d481ac9ef31fb1c07070999e229ce74ef76e57d5f84",
+            "bin": [
+                [
+                    "tun2socks-windows-amd64.exe",
+                    "tun2socks"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.4.1/tun2socks-windows-386.zip",
+            "hash": "dccbd0950837123fe57b99b394613e19cd4f4a35c26f4bc31b8c952272f213d4",
+            "bin": [
+                [
+                    "tun2socks-windows-386.exe",
+                    "tun2socks"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.4.1/tun2socks-windows-arm64.zip",
+            "hash": "b764c55e619f1368b2b6ec3af8ce4c799a56b1d0d9e1fc19d2f204f7a94d4424",
+            "bin": [
+                [
+                    "tun2socks-windows-arm64.exe",
+                    "tun2socks"
+                ]
+            ]
+        }
+    },
+    "post_install": [
+        "# Copy wintun.dll",
+        "Copy-Item -Path $dir\\..\\..\\wintun\\current\\wintun.dll -Destination $dir"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v$version/tun2socks-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v$version/tun2socks-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v$version/tun2socks-windows-arm64.zip"
+            }
+        }
+    }
+}

@@ -19,5 +19,6 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [mineseek](https://github.com/MrMarble/mineseek)<br>
 • [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
+• [tun2socks](https://github.com/xjasonlyu/tun2socks)<br>
 • [wintun](https://www.wintun.net/)<br>
 • [wiretap](https://github.com/sandialabs/wiretap)
