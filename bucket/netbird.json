@@ -7,10 +7,16 @@
         "sudo": "main/gsudo"
     },
     "bin": "netbird.exe",
+    "shortcuts": [
+        [
+            "netbird-ui.exe",
+            "netbird"
+        ]
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netbirdio/netbird/releases/download/v0.14.5/netbird_0.14.5_windows_amd64.tar.gz",
-            "hash": "54a136ee971b3fe82e1cfd3de867e36c009834542faab278054beeb4fd96f45c"
+            "url": "https://github.com/netbirdio/netbird/releases/download/v0.14.5/netbird_0.14.5_windows_amd64_signed.tar.gz",
+            "hash": "c774ac9902a4a2cfd33a86efae1d454c48558c5213179fbba4131cfbd23472c1"
         }
     },
     "checkver": {
@@ -19,11 +25,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/netbirdio/netbird/releases/download/v$version/netbird_$version_windows_amd64.tar.gz"
+                "url": "https://github.com/netbirdio/netbird/releases/download/v$version/netbird_$version_windows_amd64_signed.tar.gz"
             }
-        },
-        "hash": {
-            "url": "$baseurl/netbird_$version_checksums.txt"
         }
     }
 }
