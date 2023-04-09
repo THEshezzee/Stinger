@@ -1,11 +1,11 @@
 {
-    "version": "0.27.3",
+    "version": "0.27.5",
     "description": "AudioRelay virtual-mic driver.",
     "homepage": "https://audiorelay.net",
     "license": "Freeware",
     "innosetup": true,
-    "url": "https://dl.audiorelay.net/setups/windows/audiorelay-0.27.3.exe",
-    "hash": "f2a665baddbcf99384089edd57ab2979d6fac78f41991cbdf1e51da5113afcb7",
+    "url": "https://dl.audiorelay.net/setups/windows/audiorelay-0.27.5.exe",
+    "hash": "ef4b2398d492a12ee25d25917b725294523b97bb6e532bed1a3e5ff020d6368f",
     "pre_install": [
         "if (-not $global) {",
         "    Write-Host -Foreground Red \"$app should be installed globally.\"",
