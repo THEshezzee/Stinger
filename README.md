@@ -20,6 +20,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [mineseek](https://github.com/MrMarble/mineseek)<br>
 • [nebula](https://github.com/slackhq/nebula)<br>
 • [netbird](https://netbird.io/)<br>
+• [nuclei](https://nuclei.projectdiscovery.io/)<br>
 • [revanced-cli](https://revanced.app/)<br>
 • [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
