@@ -9,6 +9,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [awl](https://anywherelan.com/)<br>
 • [awl-tray](https://anywherelan.com/)<br>
 • [clash.meta](https://github.com/MetaCubeX/Clash.Meta)<br>
+• [currports](https://www.nirsoft.net/utils/cports.html)<br>
 • [edgevpn](https://mudler.github.io/edgevpn)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
