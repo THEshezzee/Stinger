@@ -1,5 +1,5 @@
 {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
     "homepage": "https://github.com/slackhq/nebula",
     "license": "MIT",
@@ -12,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/slackhq/nebula/releases/download/v1.7.1/nebula-windows-amd64.zip",
-            "hash": "ce2c8cfa48007764c497bf337de35663384745ccef2d65fe1cfc24c235ca66b8"
+            "url": "https://github.com/slackhq/nebula/releases/download/v1.7.2/nebula-windows-amd64.zip",
+            "hash": "e65b7de82a4d99b8c6657ffaf4c0437a4c576ab3e3ceca022fbdf45fae438b03"
         },
         "arm64": {
-            "url": "https://github.com/slackhq/nebula/releases/download/v1.7.1/nebula-windows-arm64.zip",
-            "hash": "b06938080b93550656f6a5328fc41398364b8d9f2a1d9796cc7715b8d6e60d42"
+            "url": "https://github.com/slackhq/nebula/releases/download/v1.7.2/nebula-windows-arm64.zip",
+            "hash": "f74cee64169bcaeddd1c87950a4614bda9e258a4b675969e7da62cea6fa5c3ae"
         }
     },
     "checkver": "github",
