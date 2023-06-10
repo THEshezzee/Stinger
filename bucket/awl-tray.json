@@ -1,5 +1,5 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "Securely connect your devices into a private network",
     "homepage": "https://anywherelan.com/",
     "license": "MPL-2.0",
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.8.0/awl-tray-windows-amd64-v0.8.0.zip",
-            "hash": "af15fe79cc83570bbf509339b8a1c0fc86fe35b061205aa98488c4fe9f90d208"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.8.1/awl-tray-windows-amd64-v0.8.1.zip",
+            "hash": "414b49b77b487191c3637198927c048b8853023a552888bdaa612c2023ad3062"
         },
         "32bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.8.0/awl-tray-windows-386-v0.8.0.zip",
-            "hash": "e6b76f1107f060b8638d3a151a090bcb7bfcd50a98f1d4b36b239dca32ff6f85"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.8.1/awl-tray-windows-386-v0.8.1.zip",
+            "hash": "f6b7dccdb5d31b7773f7a5469e7a6065ed050113541d41c21eb372aacfdd3c7c"
         }
     },
     "checkver": {
