@@ -1,5 +1,5 @@
 {
-    "version": "0.21.5",
+    "version": "0.21.6",
     "description": "Connect your devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls.",
     "homepage": "https://netbird.io/",
     "license": "BSD-3-Clause",
@@ -15,8 +15,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/netbirdio/netbird/releases/download/v0.21.5/netbird_0.21.5_windows_amd64_signed.tar.gz",
-            "hash": "f73606097c838f5ac0bf8bf9988a089deaed4f3c69f7211fe5a1a538e85fd0d8"
+            "url": "https://github.com/netbirdio/netbird/releases/download/v0.21.6/netbird_0.21.6_windows_amd64_signed.tar.gz",
+            "hash": "cc715b638cb4f887d9b3563c2543c90291b0d3d76973ae4c5116b227b899263a"
         }
     },
     "checkver": {
