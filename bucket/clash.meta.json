@@ -1,12 +1,12 @@
 {
-    "version": "1.14.5",
+    "version": "1.15.0",
     "description": "A rule-based tunnel in Go. (Fork of clash.)",
     "homepage": "https://github.com/MetaCubeX/Clash.Meta",
     "license": "GPL-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.5/clash.meta-windows-amd64-compatible-v1.14.5.zip",
-            "hash": "537952766c5bb2cc70b3c670b3896d6ced00386312bfeb580618c9a263001510",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.15.0/clash.meta-windows-amd64-compatible-v1.15.0.zip",
+            "hash": "91a55dc748b0465f36f3b8c19a191da5acee6a07fbb51ce702131ab41a168bf6",
             "bin": [
                 [
                     "clash.meta-windows-amd64-compatible.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.5/clash.meta-windows-386-v1.14.5.zip",
-            "hash": "c449763f748b1745e9117e6879c1f1457f88d1714b81febe36354fa126c446b2",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.15.0/clash.meta-windows-386-v1.15.0.zip",
+            "hash": "66d3a4e15a6f9a93cab79e213f974d9da82c76ca97c8cfe31daf37a0bfd621f0",
             "bin": [
                 [
                     "clash.meta-windows-386.exe",
@@ -25,8 +25,8 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.14.5/clash.meta-windows-arm64-v1.14.5.zip",
-            "hash": "e2cfc4c56cb81e9fc8b6ae3e1b92876e17abcb9a37c93b0cb732bc457554cdf7",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.15.0/clash.meta-windows-arm64-v1.15.0.zip",
+            "hash": "1db1e48bec1bde6d19636b99afe9f4dce8d4bf01b2ed91a0a1a9a22f4c243426",
             "bin": [
                 [
                     "clash.meta-windows-arm64.exe",
