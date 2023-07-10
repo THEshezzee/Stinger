@@ -8,12 +8,12 @@
         "adb": "main/adb",
         "JRE": "java/openjdk"
     },
-    "url": "https://github.com/revanced/revanced-cli/releases/download/v2.21.5/revanced-cli-2.21.5-all.jar",
+    "url": "https://github.com/revanced/revanced-cli/releases/download/v2.21.5/revanced-cli-2.21.5-all.jar#/revanced-cli.jar",
     "hash": "1d3fd8f0f8b1b5b2bbfb21f1ebb2a9a15e830230d62d6d4bba6d559d9e59721c",
     "checkver": {
         "github": "https://github.com/revanced/revanced-cli"
     },
     "autoupdate": {
-        "url": "https://github.com/revanced/revanced-cli/releases/download/v$version/revanced-cli-$version-all.jar"
+        "url": "https://github.com/revanced/revanced-cli/releases/download/v$version/revanced-cli-$version-all.jar#/revanced-cli.jar"
     }
 }
