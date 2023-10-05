@@ -1,5 +1,5 @@
 {
-    "version": "3.1.1",
+    "version": "4.0.0",
     "description": "Command line application as an alternative to the ReVanced Manager",
     "homepage": "https://revanced.app/",
     "license": "GPL-3-or-later",
@@ -8,8 +8,8 @@
         "adb": "main/adb",
         "JRE": "java/openjdk"
     },
-    "url": "https://github.com/revanced/revanced-cli/releases/download/v3.1.1/revanced-cli-3.1.1-all.jar#/revanced-cli.jar",
-    "hash": "07026189d31c937e5f0d74f17eea3069c881cd248a94b686cdd8ec35682f5f5f",
+    "url": "https://github.com/revanced/revanced-cli/releases/download/v4.0.0/revanced-cli-4.0.0-all.jar#/revanced-cli.jar",
+    "hash": "b5854a41016c2642adb7b1d05e9f8315a3ddf5a4d04194546d41759f3d102e23",
     "checkver": {
         "github": "https://github.com/revanced/revanced-cli"
     },
