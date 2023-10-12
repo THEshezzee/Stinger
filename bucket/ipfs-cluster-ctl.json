@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Pinset orchestration for IPFS",
     "homepage": "https://ipfscluster.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.0.6/ipfs-cluster-ctl_v1.0.6_windows-amd64.zip",
-            "hash": "sha512:92ce2df143a98d716089d5cec16413a790a2e33f5df88a50e0939a365615535dbe3b01d57edd0b303b9350dbd226e991d1262967f6f4326a42ce0ab558455271"
+            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.0.7/ipfs-cluster-ctl_v1.0.7_windows-amd64.zip",
+            "hash": "sha512:c2e68b423c02c16507a14789328b0205c4c1381611066340a9e66142a96b5184d29787d7e45aaa278969515fa13534dfe1026200821d57bef8e666fddeaadd17"
         },
         "32bit": {
-            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.0.6/ipfs-cluster-ctl_v1.0.6_windows-386.zip",
-            "hash": "sha512:abfc52133a8048ae879369eb2a3f7a4c7642d2857dd6885618f67122ee9b8e0b49cdd72b77298308c03cc2c99063e08fa84dc3ff2981a4917a266108bdea1fe1"
+            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.0.7/ipfs-cluster-ctl_v1.0.7_windows-386.zip",
+            "hash": "sha512:4ae578e4562bca8762adc474d0ed26d5a5eee68bf8e0f423d344dcc99e14b167f042135796f7dc5bf5d193f5cf2024e9862926328c055ec5bbc72378a84e7e4d"
         }
     },
     "extract_dir": "ipfs-cluster-ctl",
