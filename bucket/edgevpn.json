@@ -1,5 +1,5 @@
 {
-    "version": "0.23.1",
+    "version": "0.24.1",
     "description": "⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery! Create decentralized introspectable tunnels over p2p with shared tokens",
     "homepage": "https://mudler.github.io/edgevpn",
     "license": "Apache-2.0",
@@ -10,16 +10,16 @@
     "depends": "stinger/wintun",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mudler/edgevpn/releases/download/v0.23.1/edgevpn-v0.23.1-Windows-x86_64.tar.gz",
-            "hash": "0f648004452c3cb061ea85954da1ec0cff862cf5d72d393d38d6218f16f79d8e"
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.24.1/edgevpn-v0.24.1-Windows-x86_64.tar.gz",
+            "hash": "35a1b907e7ac8bd992f0c9f80f4a37096db382c32578305954a9dbb8c6d67a0a"
         },
         "32bit": {
-            "url": "https://github.com/mudler/edgevpn/releases/download/v0.23.1/edgevpn-v0.23.1-Windows-i386.tar.gz",
-            "hash": "10cb9f482e0ff23019b7967b5cab76d21aa707eaec3a935422ae7f9d152221d0"
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.24.1/edgevpn-v0.24.1-Windows-i386.tar.gz",
+            "hash": "66bc7b9bd94b25a336c1a41e7469184b8c5454d39d33de10196a543fc3a82124"
         },
         "arm64": {
-            "url": "https://github.com/mudler/edgevpn/releases/download/v0.23.1/edgevpn-v0.23.1-Windows-arm64.tar.gz",
-            "hash": "ba7c9009eccf4e05c1bada0f16a59d85a32acdfb4e0696674b0ee910562ff164"
+            "url": "https://github.com/mudler/edgevpn/releases/download/v0.24.1/edgevpn-v0.24.1-Windows-arm64.tar.gz",
+            "hash": "5a1e5415ab6061825f06dd019938f4f71d0fc239d6762e336dcea4e6a74a4d14"
         }
     },
     "post_install": [
