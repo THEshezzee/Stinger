@@ -1,5 +1,5 @@
 {
-    "version": "2.5.1",
+    "version": "2.5.2",
     "description": "tun2socks - powered by gVisor TCP/IP stack",
     "homepage": "https://github.com/xjasonlyu/tun2socks",
     "license": "GPL-3.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.1/tun2socks-windows-amd64.zip",
-            "hash": "50cf6bcfb14dc0fd05eb46a5b8a804541879a555c1e50ce64b766af9d486294b",
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.2/tun2socks-windows-amd64.zip",
+            "hash": "06c71bc30e557ceab6964543bd0d68e1b9dfefa272b51a46f60171af621b5f42",
             "bin": [
                 [
                     "tun2socks-windows-amd64.exe",
@@ -19,8 +19,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.1/tun2socks-windows-386.zip",
-            "hash": "d4579c7cf34a278d9c70fdafa36ca0ed47c8c7a93c876901862fe3ecfdede336",
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.2/tun2socks-windows-386.zip",
+            "hash": "85687380038c8fa0370f374f5bf4e087c8a34c03aee886f938f1b05be4dc3efa",
             "bin": [
                 [
                     "tun2socks-windows-386.exe",
@@ -29,8 +29,8 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.1/tun2socks-windows-arm64.zip",
-            "hash": "c159cb0a6a05145cbad83d2a4f12781520546f672dccf27361d40b3cf9c59ee1",
+            "url": "https://github.com/xjasonlyu/tun2socks/releases/download/v2.5.2/tun2socks-windows-arm64.zip",
+            "hash": "6205ddc22a991d9dba9457361b6d4fde7e51b4ca388fafa89fe883a8969202c0",
             "bin": [
                 [
                     "tun2socks-windows-arm64.exe",
