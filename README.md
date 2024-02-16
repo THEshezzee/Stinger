@@ -11,6 +11,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [currports](https://www.nirsoft.net/utils/cports.html)<br>
 • [edgevpn](https://mudler.github.io/edgevpn)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
+• [garbro-mod](https://github.com/crskycode/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
 • [ipget](https://github.com/ipfs/ipget)<br>
 • [ipfs-cluster-ctl](https://ipfscluster.io/)<br>
