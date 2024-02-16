@@ -8,7 +8,6 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [audiorelay](https://audiorelay.net) || [audiorelay-virtualmic](https://docs.audiorelay.net/instructions/windows/use-your-phone-as-a-mic-for-windows-10) (Optional audiorelay`s virtual microphone driver dependency for [audiorelay](https://audiorelay.net) package.)<br>
 • [awl](https://anywherelan.com/)<br>
 • [awl-tray](https://anywherelan.com/)<br>
-• [clash.meta](https://github.com/MetaCubeX/Clash.Meta)<br>
 • [currports](https://www.nirsoft.net/utils/cports.html)<br>
 • [edgevpn](https://mudler.github.io/edgevpn)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
