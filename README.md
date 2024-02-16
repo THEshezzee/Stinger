@@ -23,7 +23,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [netbird](https://netbird.io/)<br>
 • [nuclei](https://nuclei.projectdiscovery.io/)<br>
 • [revanced-cli](https://revanced.app/)<br>
-• [serverwrecker](https://github.com/AlexProgrammerDE/ServerWrecker)<br>
+• [soulfire](https://github.com/AlexProgrammerDE/SoulFire)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
 • [speedtest-go](https://github.com/showwin/speedtest-go)<br>
 • [tun2socks](https://github.com/xjasonlyu/tun2socks)<br>
