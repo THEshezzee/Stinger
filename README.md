@@ -28,6 +28,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
 • [speedtest-go](https://github.com/showwin/speedtest-go)<br>
 • [tun2socks](https://github.com/xjasonlyu/tun2socks)<br>
+• [vbcable](https://vb-audio.com/Cable)<br>
 • [wintun](https://www.wintun.net/)<br>
 • [wiretap](https://github.com/sandialabs/wiretap)<br>
 • [yggdrasil-go](https://yggdrasil-network.github.io/)

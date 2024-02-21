@@ -1,0 +1,42 @@
+{
+    "version": "43",
+    "homepage": "https://vb-audio.com/Cable/index.htm",
+    "description": "A virtual audio device working as virtual audio cable. All audio coming in the CABLE input is simply forwarded to the CABLE output.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://vb-audio.com/Services/licensing.htm"
+    },
+    "depends": "main/innoextract",
+    "url": "https://download.vb-audio.com/Download_CABLE/VBCABLE_Driver_Pack43.zip",
+    "hash": "66fd0a4d9f4896ff41632b7e3d53892c085c4561f53e8ae8d0f0bc10eedd1cdd",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "if (!($global)) {",
+                "   error \"$app should be installed globally.\"",
+                "   break",
+                "}"
+            ],
+            "installer": {
+                "script": [
+                    "$jsonObject = ConvertFrom-Json (Get-Content -Raw $HOME'\\scoop\\buckets\\stinger\\bucket\\audiorelay-virtualmic.json')",
+                    "info \"Downloading driver installer...\"",
+                    "Invoke-WebRequest -Uri $jsonObject.url -OutFile $dir\\installer.exe",
+                    "info \"Extracting driver installer...\"",
+                    "innoextract.exe --extract $dir\\installer.exe --output-dir $dir --silent",
+                    "warn \"You will be promted for driver installation.\"",
+                    "& $dir\\app\\tools\\drivers\\AudioConnect.DriverHelper.exe install $dir\\vbMmeCable64_win7.inf VBAudioVACWDM"
+                ]
+            },
+            "post_install": [
+                "# Cleanup",
+                "Remove-Item $dir\\installer.exe"
+            ],
+            "uninstaller": {
+                "script": [
+                    "& $dir\\app\\tools\\drivers\\AudioConnect.DriverHelper.exe uninstall VBAudioVACWDM"
+                ]
+            }
+        }
+    }
+}
