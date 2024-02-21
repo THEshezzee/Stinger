@@ -1,0 +1,31 @@
+{
+    "version": "0.1.12",
+    "description": "Decentralized tunnel network built on top of libp2p.",
+    "homepage": "https://github.com/nickjfree/goose",
+    "license": "MIT",
+    "suggest": {
+        "sudo": "main/gsudo",
+        "tap driver": "extras/openvpn"
+    },
+    "notes": [
+        "In order to use goose in VPN mode, install 'extras/openvpn'.",
+        "",
+        "Run this if you are getting \"Failed to find the tap device in registry with specified ComponentId 'tap0901', TAP driver may be not installed\" error:",
+        "	sudo New-ItemProperty -Path \"'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e972-e325-11ce-bfc1-08002be10318}\\0012'\" -Name ComponentId -Value 'tap0901' -PropertyType String -Force",
+    ],
+    "bin": "goose.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nickjfree/goose/releases/download/v0.1.12/goose-windows-amd64#/goose.exe",
+            "hash": "ae6a4f601b896a08f589c5dd12c577234db008cc468d8eab52d7fee4ec91309f"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nickjfree/goose/releases/download/v$version/goose-windows-amd64#/goose.exe"
+            }
+        }
+    }
+}
