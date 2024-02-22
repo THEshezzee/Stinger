@@ -1,5 +1,5 @@
 {
-    "version": "0.1.12",
+    "version": "0.2.0",
     "description": "Decentralized tunnel network built on top of libp2p.",
     "homepage": "https://github.com/nickjfree/goose",
     "license": "MIT",
@@ -16,8 +16,8 @@
     "bin": "goose.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nickjfree/goose/releases/download/v0.1.12/goose-windows-amd64#/goose.exe",
-            "hash": "ae6a4f601b896a08f589c5dd12c577234db008cc468d8eab52d7fee4ec91309f"
+            "url": "https://github.com/nickjfree/goose/releases/download/v0.2.0/goose-windows-amd64#/goose.exe",
+            "hash": "593f88fdfa745545b00c6a81d94f2add663b008e3b7500430c48af2ad59fefb6"
         }
     },
     "checkver": "github",
