@@ -1,0 +1,32 @@
+{
+    "version": "0.2.7",
+    "description": "A cross-platform soundboard",
+    "homepage": "https://soundux.rocks",
+    "license": "GPL-3-or-later",
+    "suggest": {
+        "vbcable": "stinger/vbcable"
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "soundux.exe",
+            "Soundux"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Soundux/Soundux/releases/download/0.2.7/soundux-0.2.7-windows-setup.exe",
+            "hash": "41f000ca73563a6218e5bed724cb6233aafd7c159dd6f58154f5b8bc61a992d0"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/Soundux/Soundux"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Soundux/Soundux/releases/download/$version/soundux-$version-windows-setup.exe"
+            }
+        }
+    }
+}
