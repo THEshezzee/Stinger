@@ -1,0 +1,57 @@
+{
+    "version": "3.4.10",
+    "description": "Play sounds in voice chats.",
+    "homepage": "https://www.leppsoft.com/soundpad/en/home",
+    "license": {
+        "identifier": "shareware",
+        "url": "https://www.leppsoft.com/soundpad/en/legal/license"
+    },
+    "suggest": {
+        "vbcable": "stinger/vbcable"
+    },
+    "shortcuts": [
+        [
+            "Soundpad.exe",
+            "Soundpad"
+        ]
+    ],
+    "url": "https://www.leppsoft.com/soundpad",
+    "installer": {
+        "script": [
+            "lessmsi.exe x $dir\\setup.msi $dir\\ > Out-Null",
+            "Move-Item -Path $dir\\SourceDir\\Soundpad\\* -Destination $dir"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "$url = 'https://www.leppsoft.com/soundpad/en/download'",
+                "$regex = '[0-9]+\/(\\w+\\-\\w+)'",
+                "$key = [regex]::Match((Invoke-WebRequest -UseBasicParsing $url), $regex).Groups[1].Value",
+                "info 'Downloading installer...'",
+                "Invoke-WebRequest -Uri https://www.leppsoft.com/soundpad/en/download/64\\$key\\ -OutFile $dir\\setup.msi"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "$url = 'https://www.leppsoft.com/soundpad/en/download'",
+                "$regex = '[0-9]+\/(\\w+\\-\\w+)'",
+                "$key = [regex]::Match((Invoke-WebRequest -UseBasicParsing $url), $regex).Groups[1].Value",
+                "info 'Downloading installer...'",
+                "Invoke-WebRequest -Uri https://www.leppsoft.com/soundpad/en/download/86\\$key\\ -OutFile $dir\\setup.msi"
+            ]
+        }
+    },
+    "post_install": [
+        "# Cleanup",
+        "Remove-Item $dir\\setup.msi",
+        "Remove-Item -Recurse $dir\\SourceDir"
+    ],
+    "checkver": {
+        "url": "https://www.leppsoft.com/soundpad/en/download",
+        "regex": "<div class=\"ls-td\">([0-9]+(\\.[0-9]+)+)" // It`s such a mess
+    },
+    "autoupdate": {
+        "url": "https://www.leppsoft.com/soundpad/en/download"
+    }
+}

@@ -25,6 +25,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [nuclei](https://nuclei.projectdiscovery.io/)<br>
 • [revanced-cli](https://revanced.app/)<br>
 • [soulfire](https://github.com/AlexProgrammerDE/SoulFire)<br>
+• [soundpad](https://www.leppsoft.com/soundpad)<br>
 • [soundux](https://soundux.rocks)<br>
 • [sing-box](https://github.com/SagerNet/sing-box)<br>
 • [speedtest-go](https://github.com/showwin/speedtest-go)<br>
