@@ -12,9 +12,9 @@
     "architecture": {
         "64bit": {
             "pre_install": [
-                "if (!($global)) {",
-                "   error \"$app should be installed globally.\"",
-                "   break",
+                "if (!(is_admin)) {",
+                "  error \"$app requires admin rights to $cmd\"",
+                "  break",
                 "}"
             ],
             "installer": {
@@ -33,6 +33,12 @@
                 "Remove-Item $dir\\installer.exe"
             ],
             "uninstaller": {
+                "pre_uninstall": [
+                    "if (!(is_admin)) {",
+                    "  error \"$app requires admin rights to $cmd\"",
+                    "  break",
+                    "}"
+                ],
                 "script": [
                     "& $dir\\app\\tools\\drivers\\AudioConnect.DriverHelper.exe uninstall VBAudioVACWDM"
                 ]
