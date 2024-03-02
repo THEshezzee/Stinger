@@ -24,6 +24,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [netbird](https://netbird.io/)<br>
 • [nuclei](https://nuclei.projectdiscovery.io/)<br>
 • [revanced-cli](https://revanced.app/)<br>
+• [sam](https://github.com/rex706/SAM)<br>
 • [soulfire](https://github.com/AlexProgrammerDE/SoulFire)<br>
 • [soundpad](https://www.leppsoft.com/soundpad)<br>
 • [soundux](https://soundux.rocks)<br>
