@@ -23,6 +23,6 @@
         "regex": "/tag/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/AlexProgrammerDE/SoulFire/releases/download/$version/SoulFire-$version.jar#/SoulFire.jar"
+        "url": "https://github.com/AlexProgrammerDE/SoulFire/releases/download/$version/SoulFireClient-$version.jar#/SoulFire.jar"
     }
 }
