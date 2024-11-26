@@ -1,21 +1,21 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "Wiretap is a transparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run.",
     "homepage": "https://github.com/sandialabs/wiretap",
     "license": "MIT-0",
     "bin": "wiretap.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.5.0/wiretap_0.5.0_windows_amd64.zip",
-            "hash": "4a2ad98309e9402322354340490ef657f83171391d02bfef72e5b7ed9ab88916"
+            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.6.0/wiretap_0.6.0_windows_amd64.zip",
+            "hash": "ba7caa9bb677dfa05e79f6043120a141a1549c8004c87c96a5685dcb284abd94"
         },
         "32bit": {
-            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.5.0/wiretap_0.5.0_windows_386.zip",
-            "hash": "e61d391f46cd7cf1cf2c8c39e559adaaf71fde90e82678655ed2046d0a22d1bb"
+            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.6.0/wiretap_0.6.0_windows_386.zip",
+            "hash": "d524e9a65c6e61fd766d46bd69e091259d2eae5e1c5fe1d78288c90c596358ca"
         },
         "arm64": {
-            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.5.0/wiretap_0.5.0_windows_arm64.zip",
-            "hash": "3fb17ac113c5bfc8f28b3f9c1e5f27b8b3d2828891cfa8bec640a1e9e009d26c"
+            "url": "https://github.com/sandialabs/wiretap/releases/download/v0.6.0/wiretap_0.6.0_windows_arm64.zip",
+            "hash": "9c81817e092819bc7e426ca5577da3a339d37b92810c22930286f98fce2de067"
         }
     },
     "checkver": {
