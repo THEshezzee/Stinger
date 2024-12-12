@@ -1,0 +1,21 @@
+{
+    "version": "3.3.7",
+    "description": "Lightweight Source RCON client that works on Windows, macOS, & Linux.",
+    "homepage": "https://github.com/radj307/ARRCON",
+    "license": "GPL-3",
+    "bin": "ARRCON.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/radj307/ARRCON/releases/download/3.3.7/ARRCON-3.3.7-Windows.zip",
+            "hash": "7cb53ed6a74f9a290976218f2e194d1c710e9ea578fb5ba5f48ecec87f810670"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/radj307/ARRCON/releases/download/$version/ARRCON-$version-Windows.zip"
+            }
+        }
+    }
+}
