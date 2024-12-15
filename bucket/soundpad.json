@@ -49,7 +49,7 @@
     ],
     "checkver": {
         "url": "https://www.leppsoft.com/soundpad/en/download",
-        "regex": "<div class=\"ls-td\">([0-9]+(\\.[0-9]+)+)" // It`s such a mess
+        "regex": "<div class=\"ls-td\">([0-9]+(\\.[0-9]+)+)"
     },
     "autoupdate": {
         "url": "https://www.leppsoft.com/soundpad/en/download"
