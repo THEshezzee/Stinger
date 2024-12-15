@@ -10,7 +10,6 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [awl-tray](https://anywherelan.com/)<br>
 • [currports](https://www.nirsoft.net/utils/cports.html)<br>
 • [edgevpn](https://mudler.github.io/edgevpn)<br>
-• [fedoraloader](https://github.com/Fedoraware/Fedoraloader)<br>
 • [garbro](https://github.com/morkt/GARbro)<br>
 • [garbro-mod](https://github.com/crskycode/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
