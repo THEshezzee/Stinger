@@ -35,10 +35,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-windows-x64.zip"
+                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-$version-win-x64.exe#/MinecraftClient.exe"
             },
             "32bit": {
-                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-windows-x86.zip"
+                "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/$version/MinecraftClient-$version-win-x86.exe#/MinecraftClient.exe"
             }
         }
     }
