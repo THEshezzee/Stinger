@@ -1,0 +1,45 @@
+{
+    "version": "0.10.3",
+    "description": "RCON client for executing queries on game server.",
+    "homepage": "https://github.com/gorcon/rcon-cli",
+    "license": "MIT",
+    "bin": [
+        [
+            "rcon.exe",
+            "rcon",
+            "-c $persist_dir\\config\\conf.yaml"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gorcon/rcon-cli/releases/download/v0.10.3/rcon-0.10.3-win64.zip",
+            "extract_dir": "rcon-0.10.3-win64",
+            "hash": "fa734747451d204487c5db3ae3c16c28967c48227652f2c49510b4735d07d054"
+        },
+        "32bit": {
+            "url": "https://github.com/gorcon/rcon-cli/releases/download/v0.10.3/rcon-0.10.3-win32.zip",
+            "extract_dir": "rcon-0.10.3-win32",
+            "hash": "1c71a4571d442c3f8f1a98c010b25c83ea138f88601447a07a4dd6cc3fc5f086"
+        }
+    },
+    "persist": "config",
+    "post_install": [
+        "if (!(Test-Path $persist_dir\\config\\conf.yaml)) {",
+        "   &{ New-Item $persist_dir\\config\\conf.yaml } | Out-Null",
+        "   Write-Output \"Created file $persist_dir\\config\\conf.yaml\"",
+        "}"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gorcon/rcon-cli/releases/download/v$version/rcon-$version-win64.zip",
+                "extract_dir": "rcon-$version-win64"
+            },
+            "32bit": {
+                "url": "https://github.com/gorcon/rcon-cli/releases/download/v$version/rcon-$version-win32.zip",
+                "extract_dir": "rcon-$version-win32"
+            }
+        }
+    }
+}

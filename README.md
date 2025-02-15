@@ -5,6 +5,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 ```
 # This bucket has following packages:
 
+• [arrcon](https://github.com/radj307/ARRCON)<br> 
 • [audiorelay](https://audiorelay.net) || [audiorelay-virtualmic](https://docs.audiorelay.net/instructions/windows/use-your-phone-as-a-mic-for-windows-10) (Optional audiorelay`s virtual microphone driver dependency for [audiorelay](https://audiorelay.net) package.)<br>
 • [awl](https://anywherelan.com/)<br>
 • [awl-tray](https://anywherelan.com/)<br>
@@ -23,6 +24,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [nebula](https://github.com/slackhq/nebula)<br>
 • [netbird](https://netbird.io/)<br>
 • [nuclei](https://nuclei.projectdiscovery.io/)<br>
+• [rcon-cli](https://github.com/gorcon/rcon-cli/)<br>
 • [revanced-cli](https://revanced.app/)<br>
 • [sam](https://github.com/rex706/SAM)<br>
 • [soulfire](https://github.com/AlexProgrammerDE/SoulFire)<br>
@@ -34,4 +36,5 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [vbcable](https://vb-audio.com/Cable)<br>
 • [wintun](https://www.wintun.net/)<br>
 • [wiretap](https://github.com/sandialabs/wiretap)<br>
-• [yggdrasil-go](https://yggdrasil-network.github.io/)
+• [yggdrasil-go](https://yggdrasil-network.github.io/)<br>
+
