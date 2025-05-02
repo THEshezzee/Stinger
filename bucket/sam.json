@@ -1,5 +1,5 @@
 {
-    "version": "1.5.4.1",
+    "version": "1.5.4.2",
     "description": "Steam Account Manager / Switcher",
     "homepage": "https://github.com/rex706/SAM",
     "license": "Unlicense",
@@ -16,8 +16,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rex706/SAM/releases/download/v1.5.4.1/SAM.exe",
-            "hash": "fe72945ea40953086b411cc455c8d77002271e1ec0683ab265668eb5b64ea376"
+            "url": "https://github.com/rex706/SAM/releases/download/v1.5.4.2/SAM.exe",
+            "hash": "0fb526820e87d1140506c70fd48b87ce2ccfc67dd504ab75640f401236619828"
         }
     },
     "persist": "settings",
