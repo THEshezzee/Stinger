@@ -5,7 +5,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 ```
 # This bucket has following packages:
 
-• [arrcon](https://github.com/radj307/ARRCON)<br> 
+• [arrcon](https://github.com/radj307/ARRCON)<br>
 • [audiorelay](https://audiorelay.net) || [audiorelay-virtualmic](https://docs.audiorelay.net/instructions/windows/use-your-phone-as-a-mic-for-windows-10) (Optional audiorelay`s virtual microphone driver dependency for [audiorelay](https://audiorelay.net) package.)<br>
 • [awl](https://anywherelan.com/)<br>
 • [awl-tray](https://anywherelan.com/)<br>
