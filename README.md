@@ -15,6 +15,7 @@ scoop bucket add stinger https://github.com/THEshezzee/Stinger
 • [garbro-mod](https://github.com/crskycode/GARbro)<br>
 • [go-catbox](https://github.com/wabarc/go-catbox)<br>
 • [goose](https://github.com/nickjfree/goose)<br>
+• [hola-proxy](https://github.com/Snawoot/hola-proxy)<br>
 • [ipget](https://github.com/ipfs/ipget)<br>
 • [ipfs-cluster-ctl](https://ipfscluster.io/)<br>
 • [ipfs-cluster-follow](https://ipfscluster.io/)<br>
