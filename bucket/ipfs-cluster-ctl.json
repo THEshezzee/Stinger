@@ -10,7 +10,8 @@
         "64bit": {
             "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.1.2/ipfs-cluster-ctl_v1.1.2_windows-amd64.zip",
             "hash": "sha512:4e23e22947c4adabd26a6eae2b56166335b01659f2caf1b83c46cabdcc8a1c044aaf77f27f31815090f246d7d73b76a422ade99b31baeb1917ce31242afa69de"
-        },
+        }
+    },
     "extract_dir": "ipfs-cluster-ctl",
     "bin": "ipfs-cluster-ctl.exe",
     "checkver": {
@@ -21,10 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v$version/ipfs-cluster-ctl_v$version_windows-amd64.zip"
-            },
-        "hash": {
-            "url": "$url.sha512"
+                "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v$version/ipfs-cluster-ctl_v$version_windows-amd64.zip",
+                "hash": {
+                    "url": "$url.sha512"
+                }
+            }
         }
     }
 }
