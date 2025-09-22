@@ -1,13 +1,13 @@
 {
-    "version": "1.18.1",
+    "version": "1.18.2",
     "description": "Standalone Hola proxy client. Just run it and it'll start a plain HTTP proxy server forwarding traffic through Hola proxies of your choice.",
     "homepage": "https://github.com/Snawoot/hola-proxy",
     "license": "MIT",
     "bin": "hola-proxy.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Snawoot/hola-proxy/releases/download/v1.18.1/hola-proxy.windows-amd64.exe#/hola-proxy.exe",
-            "hash": "d23a12f9ef9e8498eaf756de745962973cbb62fda3c87bbd8f97681e0758e767"
+            "url": "https://github.com/Snawoot/hola-proxy/releases/download/v1.18.2/hola-proxy.windows-amd64.exe#/hola-proxy.exe",
+            "hash": "fbf1ece835ede50488385aefa6c5e3e3f3dfd3a4d66151617305e2bfc8c6ccd4"
         }
     },
     "checkver": "github",
