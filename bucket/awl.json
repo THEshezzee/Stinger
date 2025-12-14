@@ -1,5 +1,5 @@
 {
-    "version": "0.13.0",
+    "version": "0.14.0",
     "description": "Securely connect your devices into a private network",
     "homepage": "https://anywherelan.com/",
     "license": "MPL-2.0",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.13.0/awl-windows-amd64-v0.13.0.zip",
-            "hash": "6a8955aeea71968ae0510c8029007753d4d101ccfb19403808aea642db1579d5"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.14.0/awl-windows-amd64-v0.14.0.zip",
+            "hash": "2fd97a98ab58684e55885610f04b749ab5f6b17da343d78949179edecc8ccd25"
         },
         "32bit": {
-            "url": "https://github.com/anywherelan/awl/releases/download/v0.13.0/awl-windows-386-v0.13.0.zip",
-            "hash": "32ebf3d8ff7f45f098c8340b0c131f8051f3f9de9ef7398c90a359953a01ca48"
+            "url": "https://github.com/anywherelan/awl/releases/download/v0.14.0/awl-windows-386-v0.14.0.zip",
+            "hash": "d8d5baac8e6eabe746c57054c10da08f45af1186a96d6b6f80e9d8bbc24f4f14"
         }
     },
     "checkver": {
