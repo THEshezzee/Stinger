@@ -1,5 +1,5 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Pinset orchestration for IPFS",
     "homepage": "https://ipfscluster.io/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.1.4/ipfs-cluster-ctl_v1.1.4_windows-amd64.zip",
-            "hash": "sha512:635ac4396e9f3b20f12539c71ac0b1cd93e8aa7871a6fae0e2f0b66ff6e9238bb22fd07403c1e82b034dbd1ce157afd75173cfd570f01e51ff99815aa783671c"
+            "url": "https://dist.ipfs.tech/ipfs-cluster-ctl/v1.1.5/ipfs-cluster-ctl_v1.1.5_windows-amd64.zip",
+            "hash": "sha512:04c4c18945e36224d9c735bb980b2e8b1025ebd502e265f3a67df8b0b551732dc5bc046e2205f5734ffb16b7fb4d82c947edc9db9f9f71a87497c3fd97d84ee6"
         }
     },
     "extract_dir": "ipfs-cluster-ctl",
