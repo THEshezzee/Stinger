@@ -1,17 +1,17 @@
 {
-    "version": "20260329-376",
+    "version": "20260329-377",
     "description": "Lightweight console for Minecraft chat and automated scripts",
     "homepage": "https://mccteam.github.io",
     "license": "CDDL-1.0",
     "notes": "Your config file located at $persist_dir\\config\\MinecraftClient.ini",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20260329-376/MinecraftClient-20260329-376-win-x64.exe#/MinecraftClient.exe",
-            "hash": "7f6a8bf8abee14350d16f652b7fe42b870f55fb0671c453abea9141559430f03"
+            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20260329-377/MinecraftClient-20260329-377-win-x64.exe#/MinecraftClient.exe",
+            "hash": "12216dabd00d878b5835f2bc28747df2452563162d971bc20898d786fd70d4f0"
         },
         "32bit": {
-            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20260329-376/MinecraftClient-20260329-376-win-x86.exe#/MinecraftClient.exe",
-            "hash": "9b5ff6b1621015f0bdc1c0fa8c7d999aaf8810d33df6e5f46d7c4eb200572be2"
+            "url": "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20260329-377/MinecraftClient-20260329-377-win-x86.exe#/MinecraftClient.exe",
+            "hash": "24f63f40341743cf501f052af2315fbdd8ec3d40ba44a921ffafce8e634a4e45"
         }
     },
     "bin": [
