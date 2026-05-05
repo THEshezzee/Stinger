@@ -1,5 +1,5 @@
 {
-    "version": "2.8.1",
+    "version": "2.8.2",
     "description": "Advanced Minecraft Server-Stresser Tool",
     "homepage": "https://github.com/AlexProgrammerDE/SoulFire",
     "license": "GPL-3",
@@ -9,8 +9,8 @@
             "java/oraclejdk"
         ]
     },
-    "url": "https://github.com/AlexProgrammerDE/SoulFire/releases/download/2.8.1/SoulFireCLI-2.8.1.jar#/SoulFire.jar",
-    "hash": "42ab2b45aa2bceae920483e87dd6017b03000d1c39bbd397dc37e374a25ac9a0",
+    "url": "https://github.com/AlexProgrammerDE/SoulFire/releases/download/2.8.2/SoulFireCLI-2.8.2.jar#/SoulFire.jar",
+    "hash": "5abdbf7e3bb8c140e958cab9a1fa98e3ef10ee3aa7b0595e4458d0d5e0ff2ce7",
     "bin": "soulfire.jar",
     "shortcuts": [
         [
